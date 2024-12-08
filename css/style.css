@@ -1,0 +1,38 @@
+:root{
+  --main-color:#24353F;
+}
+body{
+  background-color: var(--main-color);
+}
+.container{
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.form-control{
+  background-color: var(--main-color);
+  color: white !important;
+}
+.form-control::placeholder{
+  color: white !important;
+  font-size: 14px;
+}
+.form-control:focus{
+  background-color: var(--main-color);
+  box-shadow: none ;
+}
+.signUpLink{
+  transition:all 0.4s;
+  text-decoration: none;
+}
+.signUpLink:hover{
+  text-decoration: underline ;
+}
+.signinLink{
+  transition:all 0.4s;
+  text-decoration: none;
+}
+.signinLink:hover{
+  text-decoration: underline ;
+}
+nav div{
+box-shadow: none !important;
+}
